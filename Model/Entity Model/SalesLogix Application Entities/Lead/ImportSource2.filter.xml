@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmDistinctEntityFilter" id="7f13518b-8c58-4ca2-94d1-28670c050bf8" lastModifiedUtc="2012-03-23T13:20:19.4567256Z" filterName="ImportSource2" propertyName="ImportSource" dataPath="LEAD:IMPORTSOURCE" characters="0">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmDistinctEntityFilter" />
+  </ExtendedPropertiesCollection>
+</entityFilter>

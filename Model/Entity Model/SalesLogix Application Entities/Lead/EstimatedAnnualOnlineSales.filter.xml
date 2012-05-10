@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<entityFilter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="OrmRangeEntityFilter" id="2419fb6e-ebef-41ff-8794-5cb31cc9fba9" lastModifiedUtc="2012-03-20T14:06:38.599253Z" filterName="EstimatedAnnualOnlineSales" propertyName="EstimatedAnnualOnlineSales" dataPath="LEAD:ESTIMATEDANNUALONLINESALES" characters="1">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRangeEntityFilter" />
+  </ExtendedPropertiesCollection>
+  <ranges id="4747529d-7a10-4a87-aee5-aaee2093bf03" rangeName="0 to 5 Million" lower="0" upper="500000" />
+  <ranges id="43e62a22-8de6-44cc-a402-54cb24642960" rangeName="5 to 10 Million" lower="5000000" upper="10000000" />
+  <ranges id="da707da7-36e8-4e8c-8c3a-9c5533905656" rangeName="10 to 15 Million" lower="10000000" upper="15000000" />
+  <ranges id="951029d0-53ac-43be-a581-77747d026f2c" rangeName="15 to 20 Million" lower="15000000" upper="20000000" />
+  <ranges id="25fcaa97-e952-451d-bb16-58cb37651d28" rangeName="20 Million +" lower="20000000" />
+</entityFilter>
