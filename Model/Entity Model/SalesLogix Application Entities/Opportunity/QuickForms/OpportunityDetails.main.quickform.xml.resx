@@ -297,4 +297,28 @@
   <data name="luePriceList.LookupDialogTitle" xml:space="preserve">
     <value>Lookup Price List</value>
   </data>
+  <data name="lueContact.LookupProperties.CfxIDNumber.PropertyHeader" xml:space="preserve">
+    <value>CfxIDNumber (Cfx_IDNumber)</value>
+  </data>
+  <data name="lueContact.Caption" xml:space="preserve">
+    <value>Contact:</value>
+  </data>
+  <data name="phnContact.Caption" xml:space="preserve">
+    <value>Phone:</value>
+  </data>
+  <data name="txtStateProvince.Caption" xml:space="preserve">
+    <value>State / Prov:</value>
+  </data>
+  <data name="txtCity.Caption" xml:space="preserve">
+    <value>City:</value>
+  </data>
+  <data name="txtWebAddress.Caption" xml:space="preserve">
+    <value>Web URL:</value>
+  </data>
+  <data name="txtWebAddress.ButtonToolTip" xml:space="preserve">
+    <value>WWW</value>
+  </data>
+  <data name="emlEmail.Caption" xml:space="preserve">
+    <value>Email:</value>
+  </data>
 </root>
