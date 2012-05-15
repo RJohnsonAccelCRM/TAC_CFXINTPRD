@@ -48,6 +48,7 @@ if (result != null)
         emlEmail.Text = tmpContact.Contact.Email;
         txtWebAddress.Text = tmpContact.Contact.Account.WebAddress;
         txtCity.Text = tmpContact.Contact.Account.Address.City;
+		txtTollFree.Text = tmpContact.Contact.Account.TollFree; 
     }
 }
 else
@@ -58,6 +59,7 @@ else
     emlEmail.Text = "";
     txtWebAddress.Text = "";
     txtCity.Text = "";
+	txtTollFree.Text = "";
 }
         
  ]]></CSharpCodeSnippet>
@@ -280,6 +282,16 @@ else
       <ControlDefinition>
         <Properties>
           <Property name="Control" type="Sage.SalesLogix.QuickForms.QFControls.QFBrowserControl, Sage.SalesLogix.QuickForms.QFControls"><QFBrowserControl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><RowSpan>10</RowSpan><Column>1</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>wbrOpportunitySnapShot</ControlId><DataBindings /><ControlLabelPlacement>top</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><ContentLocation>~/SmartParts/Opportunity/OpportunitySnapShot.ascx</ContentLocation></QFBrowserControl></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.SalesLogix.QuickForms.QFControls.QFSLXPhone, Sage.SalesLogix.QuickForms.QFControls"><QFSLXPhone xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>1</Column><Row>11</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>txtTollFree</ControlId><DataBindings /><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><OnChangeAction><ResourceKey>txtTollFree</ResourceKey><RootActionName>NoActionAction</RootActionName><Action /><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint><DialogActionResult>NoResult</DialogActionResult><PerformsUpdate>False</PerformsUpdate><AppliedSecurity /><RefreshData>False</RefreshData></OnChangeAction><Required>false</Required></QFSLXPhone></Property>
         </Properties>
       </ControlDefinition>
     </QuickFormElement>

@@ -303,8 +303,8 @@
   <data name="lueContact.Caption" xml:space="preserve">
     <value>Contact:</value>
   </data>
-  <data name="phnContact.Caption" xml:space="preserve">
-    <value>Phone:</value>
+  <data name="txtTollFree.Caption" xml:space="preserve">
+    <value>Toll Free Phone:</value>
   </data>
   <data name="txtStateProvince.Caption" xml:space="preserve">
     <value>State / Prov:</value>
@@ -317,6 +317,9 @@
   </data>
   <data name="txtWebAddress.ButtonToolTip" xml:space="preserve">
     <value>WWW</value>
+  </data>
+  <data name="phnContact.Caption" xml:space="preserve">
+    <value>Phone:</value>
   </data>
   <data name="emlEmail.Caption" xml:space="preserve">
     <value>Email:</value>
