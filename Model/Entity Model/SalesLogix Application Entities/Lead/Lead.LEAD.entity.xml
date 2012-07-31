@@ -1107,5 +1107,19 @@
         </PickListDataType>
       </SystemDataType>
     </property>
+    <property xsi:type="OrmFieldProperty" id="8de63f18-db7b-4d5e-a494-3b04cef37461" lastModifiedUtc="2012-07-31T04:40:22.176022Z" name="CfxShipping" audited="false" columnName="CFXSHIPPING" maxLength="32" precision="0" scale="0" ordinal="74" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="ccc0f01d-7ba5-408e-8526-a3f942354b3a">
+        <TextDataType>
+          <Length>32</Length>
+        </TextDataType>
+      </SystemDataType>
+    </property>
   </properties>
 </entity>

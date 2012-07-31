@@ -12312,4 +12312,7 @@
   <data name="Lead.Filter.cfxLastCallResult.DisplayName" xml:space="preserve">
     <value>Last Call Result</value>
   </data>
+  <data name="Lead.CfxShipping.DisplayName" xml:space="preserve">
+    <value>cfxShipping</value>
+  </data>
 </root>

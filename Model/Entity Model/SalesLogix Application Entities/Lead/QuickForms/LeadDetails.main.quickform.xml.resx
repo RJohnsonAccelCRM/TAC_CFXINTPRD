@@ -249,8 +249,8 @@
   <data name="EstimatedAnnualOnlineSales.Caption" xml:space="preserve">
     <value>EstimatedAnnualOnlineSales</value>
   </data>
-  <data name="QFSLXPickList.Caption" xml:space="preserve">
-    <value>Last Call Result</value>
+  <data name="QFSLXPickList2.Caption" xml:space="preserve">
+    <value>Shipping</value>
   </data>
   <data name="CfxVolume.Caption" xml:space="preserve">
     <value>2010 EST Volume:</value>
@@ -268,15 +268,18 @@
     <value>Internationa lOrders</value>
   </data>
   <data name="CfxLeadStage.Caption" xml:space="preserve">
-    <value>LeadStage</value>
+    <value>Lead Stage</value>
   </data>
   <data name="CfxLeadStatus.Caption" xml:space="preserve">
-    <value>LeadStatus</value>
+    <value>Lead Status</value>
   </data>
   <data name="CfxCurrentSolution.Caption" xml:space="preserve">
     <value>Current Solution</value>
   </data>
   <data name="CfxCurrentStoreSoftwareProv.Caption" xml:space="preserve">
     <value>Current Store Software Prov</value>
+  </data>
+  <data name="QFSLXPickList.Caption" xml:space="preserve">
+    <value>Last Call Result</value>
   </data>
 </root>
