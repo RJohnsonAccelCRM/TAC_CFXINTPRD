@@ -12315,4 +12315,88 @@
   <data name="Lead.CfxShipping.DisplayName" xml:space="preserve">
     <value>cfxShipping</value>
   </data>
+  <data name="Lead.Filter.cfxShipping.DisplayName" xml:space="preserve">
+    <value>Shipping</value>
+  </data>
+  <data name="Account.CustomerSource.DisplayName" xml:space="preserve">
+    <value>CustomerSource</value>
+  </data>
+  <data name="Account.CompanyType.DisplayName" xml:space="preserve">
+    <value>CompanyType</value>
+  </data>
+  <data name="Account.NatureofBusinessWebsite.DisplayName" xml:space="preserve">
+    <value>NatureofBusinessWebsite</value>
+  </data>
+  <data name="Account.PrimaryITContact.DisplayName" xml:space="preserve">
+    <value>PrimaryITContact</value>
+  </data>
+  <data name="Account.PrimaryITEmail.DisplayName" xml:space="preserve">
+    <value>PrimaryITEmail</value>
+  </data>
+  <data name="Account.TotalOrders.DisplayName" xml:space="preserve">
+    <value>TotalOrders</value>
+  </data>
+  <data name="Account.CompeteUniqueVisitorsRank.DisplayName" xml:space="preserve">
+    <value>CompeteUniqueVisitorsRank</value>
+  </data>
+  <data name="Account.CurrentUSShipper.DisplayName" xml:space="preserve">
+    <value>CurrentUSShipper</value>
+  </data>
+  <data name="Account.HaveNonExportableProducts.DisplayName" xml:space="preserve">
+    <value>HaveNonExportableProducts</value>
+  </data>
+  <data name="Account.WareHouseOwnProducts.DisplayName" xml:space="preserve">
+    <value>WareHouseOwnProducts</value>
+  </data>
+  <data name="Account.TypicalOrderWeight.DisplayName" xml:space="preserve">
+    <value>TypicalOrderWeight</value>
+  </data>
+  <data name="Account.TypicalShippmentSize.DisplayName" xml:space="preserve">
+    <value>TypicalShippmentSize</value>
+  </data>
+  <data name="Account.WhoPaysShipping.DisplayName" xml:space="preserve">
+    <value>WhoPaysShipping</value>
+  </data>
+  <data name="Account.EcommercePlatform.DisplayName" xml:space="preserve">
+    <value>EcommercePlatform</value>
+  </data>
+  <data name="Account.TechResourceIs.DisplayName" xml:space="preserve">
+    <value>TechResourceIs</value>
+  </data>
+  <data name="Account.BankName.DisplayName" xml:space="preserve">
+    <value>BankName</value>
+  </data>
+  <data name="Account.HomeBranchAddress.DisplayName" xml:space="preserve">
+    <value>HomeBranchAddress</value>
+  </data>
+  <data name="Account.SWIFTNumber.DisplayName" xml:space="preserve">
+    <value>SWIFTNumber</value>
+  </data>
+  <data name="Account.AccountNumber.DisplayName" xml:space="preserve">
+    <value>AccountNumber</value>
+  </data>
+  <data name="Account.PrimaryBillingContact.DisplayName" xml:space="preserve">
+    <value>PrimaryBillingContact</value>
+  </data>
+  <data name="Account.PrimaryBillingContactEmail.DisplayName" xml:space="preserve">
+    <value>PrimaryBillingContactEmail</value>
+  </data>
+  <data name="Account.ProcessingRate.DisplayName" xml:space="preserve">
+    <value>ProcessingRate</value>
+  </data>
+  <data name="Account.TotalDiscount.DisplayName" xml:space="preserve">
+    <value>TotalDiscount</value>
+  </data>
+  <data name="Account.FXRate.DisplayName" xml:space="preserve">
+    <value>FXRate</value>
+  </data>
+  <data name="Account.PaymentSchedule.DisplayName" xml:space="preserve">
+    <value>PaymentSchedule</value>
+  </data>
+  <data name="Account.DomesticShippingCostsCalcs.DisplayName" xml:space="preserve">
+    <value>DomesticShippingCostsCalcs</value>
+  </data>
+  <data name="Account.ImplementationStatus.DisplayName" xml:space="preserve">
+    <value>ImplementationStatus</value>
+  </data>
 </root>

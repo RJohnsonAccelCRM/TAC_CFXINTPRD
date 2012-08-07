@@ -313,10 +313,7 @@
     <value>City:</value>
   </data>
   <data name="txtWebAddress.Caption" xml:space="preserve">
-    <value>Web URL:</value>
-  </data>
-  <data name="txtWebAddress.ButtonToolTip" xml:space="preserve">
-    <value>WWW</value>
+    <value>Web Address:</value>
   </data>
   <data name="phnContact.Caption" xml:space="preserve">
     <value>Phone:</value>

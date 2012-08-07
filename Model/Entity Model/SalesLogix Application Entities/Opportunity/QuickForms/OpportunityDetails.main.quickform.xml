@@ -46,7 +46,7 @@ if (result != null)
         phnContact.Text = tmpContact.Contact.WorkPhone;
         txtStateProvince.Text = tmpContact.Contact.Account.Address.State;
         emlEmail.Text = tmpContact.Contact.Email;
-        txtWebAddress.Text = tmpContact.Contact.Account.WebAddress;
+        txtWebAddress.Text  = tmpContact.Contact.Account.WebAddress;
         txtCity.Text = tmpContact.Contact.Account.Address.City;
 		txtTollFree.Text = tmpContact.Contact.Account.TollFree; 
     }
@@ -297,7 +297,7 @@ else
     </QuickFormElement>
     <QuickFormElement>
       <Properties>
-        <Property name="EntityMappingType" type="System.String">Property</Property>
+        <Property name="EntityMappingType" type="System.String">None</Property>
       </Properties>
       <ControlDefinition>
         <Properties>

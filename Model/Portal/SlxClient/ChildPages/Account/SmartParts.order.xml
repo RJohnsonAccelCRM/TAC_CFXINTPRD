@@ -39,4 +39,6 @@
   <Item Id="5550dfad-2da8-41b2-8c58-c7f3ebf2264e">ICInvoices.smartpart.xml</Item>
   <Item Id="1ab78354-caa7-4e91-bb7b-5c804d8339fb">ICCustomerPayments.smartpart.xml</Item>
   <Item Id="4369e7b3-0315-4349-bef4-5f26e845be94">ICSalesOrders.smartpart.xml</Item>
+  <Item Id="aebe68fe-4555-49fe-9e06-1ed62e2cedd1">AccountClientProfile.smartpart.xml</Item>
+  <Item Id="7874b9e2-c4d1-40fd-8437-257b4d06310f">AccountAccountingInfo.smartpart.xml</Item>
 </ModelItems>
