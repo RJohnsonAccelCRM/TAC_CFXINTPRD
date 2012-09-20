@@ -168,4 +168,7 @@
   <data name="ImplementationStatus.Caption" xml:space="preserve">
     <value>Implementation Status</value>
   </data>
+  <data name="QFTextBox.Caption" xml:space="preserve">
+    <value>Whse Own Other Desc:</value>
+  </data>
 </root>

@@ -1586,5 +1586,19 @@
         </PickListDataType>
       </SystemDataType>
     </property>
+    <property xsi:type="OrmFieldProperty" id="b1d80b4d-e2b6-462d-8472-702a87b2a050" lastModifiedUtc="2012-09-07T11:43:23.3709377Z" name="WareHouseOwnProductsDesc" audited="false" columnName="WAREHOUSEOWNPRODUCTSDESC" maxLength="128" precision="0" scale="0" ordinal="111" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="ccc0f01d-7ba5-408e-8526-a3f942354b3a">
+        <TextDataType>
+          <Length>128</Length>
+        </TextDataType>
+      </SystemDataType>
+    </property>
   </properties>
 </entity>

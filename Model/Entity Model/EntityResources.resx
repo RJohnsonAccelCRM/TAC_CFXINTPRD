@@ -12399,4 +12399,7 @@
   <data name="Account.ImplementationStatus.DisplayName" xml:space="preserve">
     <value>ImplementationStatus</value>
   </data>
+  <data name="Account.WareHouseOwnProductsDesc.DisplayName" xml:space="preserve">
+    <value>WareHouseOwnProductsDesc</value>
+  </data>
 </root>
