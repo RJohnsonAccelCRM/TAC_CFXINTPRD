@@ -12435,4 +12435,49 @@
   <data name="LeadWebsite.Notes.DisplayName" xml:space="preserve">
     <value>Notes</value>
   </data>
+  <data name="AccountWebsite.DisplayName" xml:space="preserve">
+    <value>AccountWebsite</value>
+  </data>
+  <data name="AccountWebsite.AccountWebsiteId.DisplayName" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="AccountWebsite.AccountId.DisplayName" xml:space="preserve">
+    <value>Account Id</value>
+  </data>
+  <data name="AccountWebsite.CreateUser.DisplayName" xml:space="preserve">
+    <value>Create User</value>
+  </data>
+  <data name="AccountWebsite.CreateDate.DisplayName" xml:space="preserve">
+    <value>Create Date</value>
+  </data>
+  <data name="AccountWebsite.ModifyUser.DisplayName" xml:space="preserve">
+    <value>Modify User</value>
+  </data>
+  <data name="AccountWebsite.ModifyDate.DisplayName" xml:space="preserve">
+    <value>Modify Date</value>
+  </data>
+  <data name="AccountWebsite.WebAddress.DisplayName" xml:space="preserve">
+    <value>WebAddress</value>
+  </data>
+  <data name="AccountWebsite.Notes.DisplayName" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="Account.AccountWebsites.DisplayName" xml:space="preserve">
+    <value>AccountWebsites</value>
+  </data>
+  <data name="AccountWebsite.Account.DisplayName" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="Address.AddressType.DisplayName" xml:space="preserve">
+    <value>AddressType</value>
+  </data>
+  <data name="Address.PrimaryAddress.DisplayName" xml:space="preserve">
+    <value>PrimaryAddress</value>
+  </data>
+  <data name="Account.PaymentMethod.DisplayName" xml:space="preserve">
+    <value>PaymentMethod</value>
+  </data>
+  <data name="Account.RoutingNumber.DisplayName" xml:space="preserve">
+    <value>RoutingNumber</value>
+  </data>
 </root>

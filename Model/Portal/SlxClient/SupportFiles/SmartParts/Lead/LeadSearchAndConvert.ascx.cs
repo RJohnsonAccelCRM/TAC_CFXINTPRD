@@ -924,6 +924,30 @@ public partial class LeadSearchAndConvert : EntityBoundSmartPartInfoProvider
         lead.ConvertLeadAddressToAccountAddress(account);
         lead.ConvertLeadAddressToContactAddress(contact);
         account.Save();
+		 //==================================================
+        // CFX Code here
+        //==================================================
+        foreach (ILeadWebsite tmpWebsite in lead.LeadWebsites)
+        {
+            // Create Account Additional Website Record
+            Sage.Entity.Interfaces.IAccountWebsite Acctwebsite = Sage.Platform.EntityFactory.Create<Sage.Entity.Interfaces.IAccountWebsite>();
+            Acctwebsite.Account = account;
+            Acctwebsite.Notes = tmpWebsite.Notes;
+            Acctwebsite.WebAddress = tmpWebsite.WebAddress;
+
+            try
+            {
+                Acctwebsite.Save();
+            }
+            catch (Exception)
+            {
+
+                //Exception But Continue
+            }
+        }
+        // ===========================================================
+        // End CFX Code
+        //================================================================
         contact.SaveContactAccount(account);
 
         if (createOpportunity)

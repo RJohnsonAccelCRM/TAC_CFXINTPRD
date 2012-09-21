@@ -153,4 +153,10 @@
   <data name="QFSLXEmail.Caption" xml:space="preserve">
     <value>PrimaryBillingContactEmail</value>
   </data>
+  <data name="PaymentMethod.Caption" xml:space="preserve">
+    <value>PaymentMethod</value>
+  </data>
+  <data name="RoutingNumber.Caption" xml:space="preserve">
+    <value>Routing #</value>
+  </data>
 </root>

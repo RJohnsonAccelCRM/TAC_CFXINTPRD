@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<SmartPartMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="1fc172be-bedd-4156-a2e8-bf289dca261f">
+  <SmartPartId>AddEditAccountWebsite</SmartPartId>
+  <ReferencedModelId>b2741b79-02a2-4f4c-81cd-c204f82cf41c</ReferencedModelId>
+  <SmartPart>\Entity Model\SalesLogix Application Entities\AccountWebsite\QuickForms\AddEditAccountWebsite.main.quickform.xml</SmartPart>
+  <TargetWorkspace>DialogWorkspace</TargetWorkspace>
+  <ShowInMode />
+  <Properties />
+  <AllowRoles />
+</SmartPartMapping>

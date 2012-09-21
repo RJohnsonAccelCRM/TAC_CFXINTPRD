@@ -117,10 +117,31 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="Title" xml:space="preserve">
-    <value>AdditionalWebsites</value>
+  <data name="Notes.Caption" xml:space="preserve">
+    <value>Notes</value>
   </data>
-  <data name="Description" xml:space="preserve">
-    <value>AdditionalWebsites</value>
+  <data name="grdAccountWebsites.9631890d-215d-4235-be0c-e43284e62aa2.ColumnHeading" xml:space="preserve">
+    <value>Notes</value>
+  </data>
+  <data name="grdAccountWebsites.0513ee04-b214-46e8-9b9b-5c765825afc1.ColumnHeading" xml:space="preserve">
+    <value>WebAddress</value>
+  </data>
+  <data name="grdAccountWebsites.30def886-01fd-474e-9438-e31b4db5c31f.ColumnHeading" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="grdAccountWebsites.30def886-01fd-474e-9438-e31b4db5c31f.Text" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="d314eb8d-b087-478e-9172-5ba83d750e59.DialogTitleOverride" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="grdAccountWebsites.34c8410b-9d21-4dca-bdce-e3a6388521e6.ColumnHeading" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="grdAccountWebsites.34c8410b-9d21-4dca-bdce-e3a6388521e6.ConfirmationMessage" xml:space="preserve">
+    <value>Are you sure you want to delete?</value>
+  </data>
+  <data name="grdAccountWebsites.34c8410b-9d21-4dca-bdce-e3a6388521e6.Text" xml:space="preserve">
+    <value>Delete</value>
   </data>
 </root>

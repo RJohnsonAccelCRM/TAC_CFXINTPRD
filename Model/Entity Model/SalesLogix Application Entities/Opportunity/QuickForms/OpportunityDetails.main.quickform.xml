@@ -323,6 +323,44 @@ else
       </Properties>
       <ControlDefinition>
         <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFButton, Sage.Platform.QuickForms"><QFButton xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>QFButton</ControlId><DataBindings /><ControlLabelPlacement>none</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><ButtonType>Icon</ButtonType><Image>[Localization!Global_Images:associate_16x16]</Image><OnClientClick /><OnClickAction><ResourceKey>QFButton</ResourceKey><RootActionName>CSharpSnippetAction</RootActionName><Action><CSharpCodeSnippet><![CDATA[// CFX Code Here.
+     Sage.Entity.Interfaces.IOpportunity _entity = BindingSource.Current as Sage.Entity.Interfaces.IOpportunity;
+     if (_entity != null)
+     {
+         if (_entity.Account != null)
+         {
+             //need to get the helper
+             Sage.Platform.RepositoryHelper<Sage.Entity.Interfaces.IHistory>
+             myHelper = Sage.Platform.EntityFactory.GetRepositoryHelper<Sage.Entity.Interfaces.IHistory>();
+
+             //need to create my search criteria to filter the results
+             Sage.Platform.Repository.ICriteria myCriteria = myHelper.CreateCriteria();
+             //now I can say things like ID = oppid or whatever.
+             myCriteria.Add(myHelper.EF.Eq("AccountId", _entity.Account.Id.ToString() ));
+            System.Collections.Generic.IList<Sage.Entity.Interfaces.IHistory> MyList = myCriteria.List<Sage.Entity.Interfaces.IHistory >(); 
+             foreach (Sage.Entity.Interfaces.IHistory tmpHistory in MyList )
+             {
+                 if (tmpHistory.OpportunityId == null)
+                 {
+                     tmpHistory.OpportunityId = _entity.Id.ToString();
+                     tmpHistory.OpportunityName = _entity.Description.ToString();
+                     tmpHistory.Save();
+                 }
+                 
+             }
+             ScriptManager.RegisterStartupScript(this, GetType(), "refresh", "window.setTimeout('window.location.reload(true);',50);", true);
+         }
+     }
+]]></CSharpCodeSnippet></Action><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint><DialogActionResult>NoResult</DialogActionResult><PerformsUpdate>False</PerformsUpdate><AppliedSecurity /><RefreshData>False</RefreshData></OnClickAction></QFButton></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">None</Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
           <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFElementSpacer, Sage.Platform.QuickForms"><QFElementSpacer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>0</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId /><DataBindings /><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /></QFElementSpacer></Property>
         </Properties>
       </ControlDefinition>

@@ -41,4 +41,6 @@
   <Item Id="4369e7b3-0315-4349-bef4-5f26e845be94">ICSalesOrders.smartpart.xml</Item>
   <Item Id="aebe68fe-4555-49fe-9e06-1ed62e2cedd1">AccountClientProfile.smartpart.xml</Item>
   <Item Id="7874b9e2-c4d1-40fd-8437-257b4d06310f">AccountAccountingInfo.smartpart.xml</Item>
+  <Item Id="1fc172be-bedd-4156-a2e8-bf289dca261f">AddEditAccountWebsite.smartpart.xml</Item>
+  <Item Id="e9fa4f1b-c556-4f3b-af26-074c1aab4278">AccountWebsites.smartpart.xml</Item>
 </ModelItems>

@@ -321,4 +321,10 @@
   <data name="emlEmail.Caption" xml:space="preserve">
     <value>Email:</value>
   </data>
+  <data name="QFButton.Caption" xml:space="preserve">
+    <value>LinkAccountHistories</value>
+  </data>
+  <data name="QFButton.ToolTip" xml:space="preserve">
+    <value>Link Account History</value>
+  </data>
 </root>
