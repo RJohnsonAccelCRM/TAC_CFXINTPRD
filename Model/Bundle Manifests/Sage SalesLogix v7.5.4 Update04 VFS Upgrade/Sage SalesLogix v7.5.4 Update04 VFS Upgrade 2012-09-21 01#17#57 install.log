@@ -1,0 +1,42 @@
+9/21/2012 1:17:57 AM
+INFO  2012-09-20 19:17:55,555 - Installing bundle...
+INFO  2012-09-20 19:17:55,555 - Performing pre-install.
+INFO  2012-09-20 19:17:55,555 - Installing context item: Web Reporting Portal (\Portal\slxwebrpt\slxwebrpt.portal.xml)
+INFO  2012-09-20 19:17:55,711 - Successfully installed Web Reporting Portal (\Portal\slxwebrpt\slxwebrpt.portal.xml)
+INFO  2012-09-20 19:17:55,726 - Installing context item: SalesLogix Lead Capture (\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml)
+INFO  2012-09-20 19:17:55,789 - Successfully installed SalesLogix Lead Capture (\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml)
+INFO  2012-09-20 19:17:55,789 - Installing context item: Intellisync For SalesLogix (\Portal\SlxIntellisync\SlxIntellisync.portal.xml)
+INFO  2012-09-20 19:17:55,883 - Successfully installed Intellisync For SalesLogix (\Portal\SlxIntellisync\SlxIntellisync.portal.xml)
+INFO  2012-09-20 19:17:55,883 - Installing context item: Sage SalesLogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml)
+INFO  2012-09-20 19:17:55,961 - Successfully installed Sage SalesLogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml)
+INFO  2012-09-20 19:17:55,961 - Installing context item: Sage SalesLogix (\Portal\SlxClient\SlxClient.portal.xml)
+INFO  2012-09-20 19:17:56,164 - Successfully installed Sage SalesLogix (\Portal\SlxClient\SlxClient.portal.xml)
+INFO  2012-09-20 19:17:56,164 - Installing context item: SData Integration Host (\Portal\sdata\sdata.portal.xml)
+INFO  2012-09-20 19:17:56,211 - Successfully installed SData Integration Host (\Portal\sdata\sdata.portal.xml)
+INFO  2012-09-20 19:17:56,226 - Installing context item: Process Host Portal (\Portal\ProcessHost\ProcessHost.portal.xml)
+INFO  2012-09-20 19:17:56,258 - Successfully installed Process Host Portal (\Portal\ProcessHost\ProcessHost.portal.xml)
+INFO  2012-09-20 19:17:56,273 - Installing context item: SalesLogix Contract Sync Entities (\Entity Model\SalesLogix Contract Sync Entities\SalesLogix Contract Sync Entities.T.package.xml)
+INFO  2012-09-20 19:17:56,289 - Successfully installed SalesLogix Contract Sync Entities (\Entity Model\SalesLogix Contract Sync Entities\SalesLogix Contract Sync Entities.T.package.xml)
+INFO  2012-09-20 19:17:56,289 - Installing context item: AppIdMapping (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\AppIdMapping.APPIDMAPPING.entity.xml)
+INFO  2012-09-20 19:17:56,398 - Successfully installed AppIdMapping (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\AppIdMapping.APPIDMAPPING.entity.xml)
+INFO  2012-09-20 19:17:56,398 - Installing model item: AccountingSystems (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\QuickForms\AccountingSystems.main.quickform.xml)
+INFO  2012-09-20 19:17:56,476 - Successfully installed AccountingSystems (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\QuickForms\AccountingSystems.main.quickform.xml)
+INFO  2012-09-20 19:17:56,476 - Installing context item: SalesLogix Application Entities (\Entity Model\SalesLogix Application Entities\SalesLogix Application Entities.T.package.xml)
+INFO  2012-09-20 19:17:56,476 - Successfully installed SalesLogix Application Entities (\Entity Model\SalesLogix Application Entities\SalesLogix Application Entities.T.package.xml)
+INFO  2012-09-20 19:17:56,492 - Installing context item: Account (\Entity Model\SalesLogix Application Entities\Account\Account.ACCOUNT.entity.xml)
+INFO  2012-09-20 19:17:56,680 - Successfully installed Account (\Entity Model\SalesLogix Application Entities\Account\Account.ACCOUNT.entity.xml)
+INFO  2012-09-20 19:17:56,680 - Installing model item: ICAccounting (\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccounting.main.quickform.xml)
+INFO  2012-09-20 19:17:56,695 - Successfully installed ICAccounting (\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccounting.main.quickform.xml)
+INFO  2012-09-20 19:17:56,695 - Configuring installed items.
+INFO  2012-09-20 19:17:56,695 - Configuring Web Reporting Portal...
+INFO  2012-09-20 19:17:56,711 - Configuring SalesLogix Lead Capture...
+INFO  2012-09-20 19:17:56,711 - Configuring Intellisync For SalesLogix...
+INFO  2012-09-20 19:17:56,711 - Configuring Sage SalesLogix Customer Portal...
+INFO  2012-09-20 19:17:56,711 - Configuring Sage SalesLogix...
+INFO  2012-09-20 19:17:56,726 - Configuring SData Integration Host...
+INFO  2012-09-20 19:17:56,726 - Configuring Process Host Portal...
+INFO  2012-09-20 19:17:56,726 - Performing pre-commit to target project.
+INFO  2012-09-20 19:17:56,820 - Committing items to target project...
+INFO  2012-09-20 19:17:56,898 - Committing transactions...
+INFO  2012-09-20 19:17:57,086 - Copying bundle manifest to project.
+INFO  2012-09-20 19:17:58,273 - Install complete.

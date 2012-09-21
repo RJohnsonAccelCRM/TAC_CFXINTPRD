@@ -1,4 +1,4 @@
-﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="cfxQuickCall.ascx.cs" Inherits="SmartParts_Lead_cfxQuickCall" %>
+<%@ Control Language="C#" AutoEventWireup="true" CodeFile="cfxQuickCall.ascx.cs" Inherits="SmartParts_Lead_cfxQuickCall" %>
 <%@ Register Assembly="Sage.SalesLogix.Client.GroupBuilder" Namespace="Sage.SalesLogix.Client.GroupBuilder" TagPrefix="SalesLogix" %>
 <%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls.PickList" TagPrefix="SalesLogix" %>
 <%@ Register Assembly="Sage.SalesLogix.Web.Controls" Namespace="Sage.SalesLogix.Web.Controls" TagPrefix="SalesLogix" %>
@@ -29,7 +29,7 @@
         <td>
          <span class="twocollbl"><asp:Label ID="Result_lz" AssociatedControlID="Result" runat="server" Text="Result"></asp:Label></span> 
             <span  class="twocoltextcontrol" >
-                <SalesLogix:PickListControl runat="server" ID="Result" PickListName="cfxLastCallResult" MustExistInList="false" />
+                <SalesLogix:PickListControl runat="server" ID="Result" PickListName="intLastCallResult" MustExistInList="false" />
             </span> 
         </td>
         <td>

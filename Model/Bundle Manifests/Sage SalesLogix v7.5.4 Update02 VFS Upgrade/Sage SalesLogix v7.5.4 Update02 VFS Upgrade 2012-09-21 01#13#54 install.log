@@ -1,0 +1,60 @@
+9/21/2012 1:13:54 AM
+INFO  2012-09-20 19:13:51,945 - Installing bundle...
+INFO  2012-09-20 19:13:51,945 - Performing pre-install.
+INFO  2012-09-20 19:13:51,961 - Installing context item: SalesLogix Application Entities (\Entity Model\SalesLogix Application Entities\SalesLogix Application Entities.T.package.xml)
+INFO  2012-09-20 19:13:51,961 - Successfully installed SalesLogix Application Entities (\Entity Model\SalesLogix Application Entities\SalesLogix Application Entities.T.package.xml)
+INFO  2012-09-20 19:13:51,961 - Installing context item: SalesOrderItem (\Entity Model\SalesLogix Application Entities\SalesOrderItem\SalesOrderItem.SALESORDERITEMS.entity.xml)
+INFO  2012-09-20 19:13:52,070 - Successfully installed SalesOrderItem (\Entity Model\SalesLogix Application Entities\SalesOrderItem\SalesOrderItem.SALESORDERITEMS.entity.xml)
+INFO  2012-09-20 19:13:52,070 - Installing model item: CalculateUnitOfMeasureChange (\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculateUnitOfMeasureChange.method.xml)
+INFO  2012-09-20 19:13:52,070 - Successfully installed CalculateUnitOfMeasureChange (\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculateUnitOfMeasureChange.method.xml)
+INFO  2012-09-20 19:13:52,070 - Installing item: CalculateUnitOfMeasureChange (\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculateUnitOfMeasureChange.method.xml::Primary Steps::CalculateUnitOfMeasureChange)
+INFO  2012-09-20 19:13:52,070 - Successfully installed CalculateUnitOfMeasureChange (\Entity Model\SalesLogix Application Entities\SalesOrderItem\CalculateUnitOfMeasureChange.method.xml::Primary Steps::CalculateUnitOfMeasureChange)
+INFO  2012-09-20 19:13:52,086 - Installing model item: ICEditSalesOrderItem (\Entity Model\SalesLogix Application Entities\SalesOrderItem\QuickForms\ICEditSalesOrderItem.main.quickform.xml)
+INFO  2012-09-20 19:13:52,164 - Successfully installed ICEditSalesOrderItem (\Entity Model\SalesLogix Application Entities\SalesOrderItem\QuickForms\ICEditSalesOrderItem.main.quickform.xml)
+INFO  2012-09-20 19:13:52,164 - Installing context item: SalesOrder (\Entity Model\SalesLogix Application Entities\SalesOrder\SalesOrder.SALESORDER.entity.xml)
+INFO  2012-09-20 19:13:52,351 - Successfully installed SalesOrder (\Entity Model\SalesLogix Application Entities\SalesOrder\SalesOrder.SALESORDER.entity.xml)
+INFO  2012-09-20 19:13:52,351 - Installing model item: EditSalesOrderDetail (\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\EditSalesOrderDetail.main.quickform.xml)
+INFO  2012-09-20 19:13:52,367 - Successfully installed EditSalesOrderDetail (\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\EditSalesOrderDetail.main.quickform.xml)
+INFO  2012-09-20 19:13:52,367 - Installing model item: SalesOrderDetails (\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml)
+INFO  2012-09-20 19:13:52,383 - Successfully installed SalesOrderDetails (\Entity Model\SalesLogix Application Entities\SalesOrder\QuickForms\SalesOrderDetails.main.quickform.xml)
+INFO  2012-09-20 19:13:52,383 - Installing context item: Account (\Entity Model\SalesLogix Application Entities\Account\Account.ACCOUNT.entity.xml)
+INFO  2012-09-20 19:13:52,523 - Successfully installed Account (\Entity Model\SalesLogix Application Entities\Account\Account.ACCOUNT.entity.xml)
+INFO  2012-09-20 19:13:52,539 - Installing model item: ICAccounting (\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccounting.main.quickform.xml)
+INFO  2012-09-20 19:13:52,539 - Successfully installed ICAccounting (\Entity Model\SalesLogix Application Entities\Account\QuickForms\ICAccounting.main.quickform.xml)
+INFO  2012-09-20 19:13:52,539 - Installing context item: SalesLogix Contract Sync Entities (\Entity Model\SalesLogix Contract Sync Entities\SalesLogix Contract Sync Entities.T.package.xml)
+INFO  2012-09-20 19:13:52,539 - Successfully installed SalesLogix Contract Sync Entities (\Entity Model\SalesLogix Contract Sync Entities\SalesLogix Contract Sync Entities.T.package.xml)
+INFO  2012-09-20 19:13:52,539 - Installing context item: AppIdMapping (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\AppIdMapping.APPIDMAPPING.entity.xml)
+INFO  2012-09-20 19:13:52,570 - Successfully installed AppIdMapping (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\AppIdMapping.APPIDMAPPING.entity.xml)
+INFO  2012-09-20 19:13:52,570 - Installing model item: AccountingSystems (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\QuickForms\AccountingSystems.main.quickform.xml)
+INFO  2012-09-20 19:13:52,586 - Successfully installed AccountingSystems (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\QuickForms\AccountingSystems.main.quickform.xml)
+INFO  2012-09-20 19:13:52,586 - Installing model item: AddEditAccountingSystem (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\QuickForms\AddEditAccountingSystem.main.quickform.xml)
+INFO  2012-09-20 19:13:52,586 - Successfully installed AddEditAccountingSystem (\Entity Model\SalesLogix Contract Sync Entities\AppIdMapping\QuickForms\AddEditAccountingSystem.main.quickform.xml)
+INFO  2012-09-20 19:13:52,601 - Installing model item: Product.SalesOrderItems 1:M Sales Order Item.Product (\Entity Model\Relationships\Product.SalesOrderItem.02abd3f61cfd4245a2fa54b7cceccc52.relationship.xml)
+INFO  2012-09-20 19:13:53,383 - Successfully installed Product.SalesOrderItems 1:M Sales Order Item.Product (\Entity Model\Relationships\Product.SalesOrderItem.02abd3f61cfd4245a2fa54b7cceccc52.relationship.xml)
+INFO  2012-09-20 19:13:53,398 - Installing context item: Web Reporting Portal (\Portal\slxwebrpt\slxwebrpt.portal.xml)
+INFO  2012-09-20 19:13:53,445 - Successfully installed Web Reporting Portal (\Portal\slxwebrpt\slxwebrpt.portal.xml)
+INFO  2012-09-20 19:13:53,445 - Installing context item: SalesLogix Lead Capture (\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml)
+INFO  2012-09-20 19:13:53,508 - Successfully installed SalesLogix Lead Capture (\Portal\SlxLeadCapture\SlxLeadCapture.portal.xml)
+INFO  2012-09-20 19:13:53,508 - Installing context item: Intellisync For SalesLogix (\Portal\SlxIntellisync\SlxIntellisync.portal.xml)
+INFO  2012-09-20 19:13:53,555 - Successfully installed Intellisync For SalesLogix (\Portal\SlxIntellisync\SlxIntellisync.portal.xml)
+INFO  2012-09-20 19:13:53,555 - Installing context item: Sage SalesLogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml)
+INFO  2012-09-20 19:13:53,648 - Successfully installed Sage SalesLogix Customer Portal (\Portal\SLXCustomerPortal\SLXCustomerPortal.portal.xml)
+INFO  2012-09-20 19:13:53,664 - Installing context item: Sage SalesLogix (\Portal\SlxClient\SlxClient.portal.xml)
+INFO  2012-09-20 19:13:53,773 - Successfully installed Sage SalesLogix (\Portal\SlxClient\SlxClient.portal.xml)
+INFO  2012-09-20 19:13:53,773 - Installing context item: SData Integration Host (\Portal\sdata\sdata.portal.xml)
+INFO  2012-09-20 19:13:53,836 - Successfully installed SData Integration Host (\Portal\sdata\sdata.portal.xml)
+INFO  2012-09-20 19:13:53,836 - Installing context item: Process Host Portal (\Portal\ProcessHost\ProcessHost.portal.xml)
+INFO  2012-09-20 19:13:53,883 - Successfully installed Process Host Portal (\Portal\ProcessHost\ProcessHost.portal.xml)
+INFO  2012-09-20 19:13:53,883 - Configuring installed items.
+INFO  2012-09-20 19:13:53,898 - Configuring Web Reporting Portal...
+INFO  2012-09-20 19:13:53,898 - Configuring SalesLogix Lead Capture...
+INFO  2012-09-20 19:13:53,898 - Configuring Intellisync For SalesLogix...
+INFO  2012-09-20 19:13:53,898 - Configuring Sage SalesLogix Customer Portal...
+INFO  2012-09-20 19:13:53,898 - Configuring Sage SalesLogix...
+INFO  2012-09-20 19:13:53,930 - Configuring SData Integration Host...
+INFO  2012-09-20 19:13:53,930 - Configuring Process Host Portal...
+INFO  2012-09-20 19:13:53,930 - Performing pre-commit to target project.
+INFO  2012-09-20 19:13:54,023 - Committing items to target project...
+INFO  2012-09-20 19:13:54,133 - Committing transactions...
+INFO  2012-09-20 19:13:54,273 - Copying bundle manifest to project.
+INFO  2012-09-20 19:13:55,398 - Install complete.
