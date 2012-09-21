@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<relationship xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" id="c0249e15-5f39-4948-9b35-74b354957d91" lastModifiedUtc="2012-09-21T02:09:15.68Z" parentEntityId="27f9e8e9-34d8-4eaf-8fd7-c70d133e6f90" childEntityId="d10a3326-5c68-4815-801b-e15715708666">
+  <extendedMetaData />
+  <ExtendedPropertiesCollection>
+    <extendee type="Sage.Platform.Orm.Entities.OrmRelationship" />
+  </ExtendedPropertiesCollection>
+  <parentProperty id="93d85745-5b0b-4a14-8e68-40c56fbf73d7" lastModifiedUtc="2012-09-21T02:09:14.4925Z" name="LeadWebsites" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </parentProperty>
+  <childProperty id="b6f0a789-55e5-45c2-b176-f48e468d36be" lastModifiedUtc="2012-09-21T02:09:14.4925Z" name="Lead" audited="false">
+    <ExtendedPropertiesCollection>
+      <extendee type="Sage.Platform.Orm.Entities.OrmRelationProperty">
+        <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+          <OrmEntityPropertySDataExtension generate="true" />
+        </extender>
+      </extendee>
+    </ExtendedPropertiesCollection>
+    <SystemDataType guid="2f770d03-c93c-4605-8ae8-7cdae04830d7">
+      <RelationshipDataType />
+    </SystemDataType>
+  </childProperty>
+  <column>
+    <OrmRelationshipColumn id="664e7f51-9265-4a40-8b80-6c9a808b2e7f" parentPropertyId="2d710a24-63a7-432c-83e8-686987cd0895" childPropertyId="e0fa4545-2b72-421f-9406-e4e5afc5e8be" ordinal="0" />
+  </column>
+</relationship>

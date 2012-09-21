@@ -12402,4 +12402,37 @@
   <data name="Account.WareHouseOwnProductsDesc.DisplayName" xml:space="preserve">
     <value>WareHouseOwnProductsDesc</value>
   </data>
+  <data name="LeadWebsite.DisplayName" xml:space="preserve">
+    <value>LeadWebsite</value>
+  </data>
+  <data name="LeadWebsite.LeadWebsiteId.DisplayName" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="LeadWebsite.LeadId.DisplayName" xml:space="preserve">
+    <value>Lead Id</value>
+  </data>
+  <data name="LeadWebsite.CreateUser.DisplayName" xml:space="preserve">
+    <value>Create User</value>
+  </data>
+  <data name="LeadWebsite.CreateDate.DisplayName" xml:space="preserve">
+    <value>Create Date</value>
+  </data>
+  <data name="LeadWebsite.ModifyUser.DisplayName" xml:space="preserve">
+    <value>Modify User</value>
+  </data>
+  <data name="LeadWebsite.ModifyDate.DisplayName" xml:space="preserve">
+    <value>Modify Date</value>
+  </data>
+  <data name="Lead.LeadWebsites.DisplayName" xml:space="preserve">
+    <value>LeadWebsites</value>
+  </data>
+  <data name="LeadWebsite.Lead.DisplayName" xml:space="preserve">
+    <value>Lead</value>
+  </data>
+  <data name="LeadWebsite.WebAddress.DisplayName" xml:space="preserve">
+    <value>WebAddress</value>
+  </data>
+  <data name="LeadWebsite.Notes.DisplayName" xml:space="preserve">
+    <value>Notes</value>
+  </data>
 </root>

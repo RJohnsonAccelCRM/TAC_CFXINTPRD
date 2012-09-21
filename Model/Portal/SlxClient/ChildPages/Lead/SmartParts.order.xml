@@ -16,4 +16,6 @@
   <Item Id="9f463269-d0f6-4c2f-8bbc-32b891003a44">CompleteRecurrence.smartpart.xml</Item>
   <Item Id="36fadfca-71eb-4cf7-82d0-24edcedcedd9">MergeRecords.smartpart.xml</Item>
   <Item Id="160c741d-2de2-4bcf-8613-fd0f6f58fbaf">cfxQuickCall.smartpart.xml</Item>
+  <Item Id="019f0dbe-d676-4fd2-bb90-e4e1f4be2a6c">AddEditLeadWebsite.smartpart.xml</Item>
+  <Item Id="d82f0aa4-3d17-4208-95c2-6d297aaab514">LeadWebsites.smartpart.xml</Item>
 </ModelItems>
