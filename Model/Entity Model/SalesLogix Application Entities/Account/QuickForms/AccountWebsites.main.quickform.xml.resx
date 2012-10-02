@@ -144,4 +144,10 @@
   <data name="grdAccountWebsites.34c8410b-9d21-4dca-bdce-e3a6388521e6.Text" xml:space="preserve">
     <value>Delete</value>
   </data>
+  <data name="QFButton.Caption" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="d5900f54-1b9f-445d-b9e5-02fc14567a9b.DialogTitleOverride" xml:space="preserve">
+    <value>Insert Account Website</value>
+  </data>
 </root>
