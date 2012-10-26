@@ -8,7 +8,7 @@
     <Property name="ImagePath" type="System.String"></Property>
     <Property name="DefinitionType" type="System.String">Sage.Platform.QuickForms.QuickFormMainDetailViewDefinition, Sage.Platform.QuickForms</Property>
     <Property name="Columns" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.ColumnStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfColumnStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><ColumnStyle><SizeType>Percent</SizeType><Width>100</Width></ColumnStyle></ArrayOfColumnStyle></Property>
-    <Property name="Rows" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.RowStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfRowStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle></ArrayOfRowStyle></Property>
+    <Property name="Rows" type="System.ComponentModel.BindingList`1[[System.Windows.Forms.RowStyle, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]], System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"><ArrayOfRowStyle xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle><RowStyle><SizeType>Absolute</SizeType><Height>35</Height></RowStyle></ArrayOfRowStyle></Property>
     <Property name="GeneratePrintView" type="System.Boolean">False</Property>
     <Property name="Description" type="System.String"></Property>
     <Property name="ActiveControl" type="System.String"></Property>
@@ -18,6 +18,13 @@
     <QuickFormElement>
       <Properties>
         <Property name="EntityMappingType" type="System.String">Property</Property>
+        <Property name="EntityTypeName" type="System.String"></Property>
+        <Property name="EntityNamespace" type="System.String"></Property>
+        <Property name="EntityAssemblyName" type="System.String"></Property>
+        <Property name="DefaultNamespace" type="System.String"></Property>
+        <Property name="AssemblyName" type="System.String"></Property>
+        <Property name="EntityReferenceName" type="System.String"></Property>
+        <Property name="DesignerDisplayMember" type="System.String"></Property>
       </Properties>
       <ControlDefinition>
         <Properties>
@@ -28,10 +35,34 @@
     <QuickFormElement>
       <Properties>
         <Property name="EntityMappingType" type="System.String">Property</Property>
+        <Property name="EntityTypeName" type="System.String">IAccountWebsite</Property>
+        <Property name="EntityNamespace" type="System.String">Sage.Entity.Interfaces</Property>
+        <Property name="EntityAssemblyName" type="System.String">Sage.Entity.Interfaces</Property>
+        <Property name="DefaultNamespace" type="System.String">Sage.Entity.Interfaces</Property>
+        <Property name="AssemblyName" type="System.String">Sage.Entity.Interfaces</Property>
+        <Property name="EntityReferenceName" type="System.String"></Property>
+        <Property name="ValueMember" type="System.String">MerchantID</Property>
       </Properties>
       <ControlDefinition>
         <Properties>
-          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms"><QFTextBox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><RowSpan>4</RowSpan><Column>0</Column><Row>1</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>Notes</ControlId><DataBindings><QuickFormPropertyDataBindingDefinition><DataSourceID>MainEntity</DataSourceID><DataItemName>Notes</DataItemName><ControlItemName>Text</ControlItemName><FormatString /><NullValueString /></QuickFormPropertyDataBindingDefinition></DataBindings><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><MaxLength>500</MaxLength><Lines>4</Lines><OnChangeAction><ResourceKey>Notes</ResourceKey><RootActionName>NoActionAction</RootActionName><Action /><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint><DialogActionResult>NoResult</DialogActionResult><PerformsUpdate>False</PerformsUpdate><AppliedSecurity /><RefreshData>False</RefreshData></OnChangeAction></QFTextBox></Property>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms"><QFTextBox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Column>0</Column><Row>1</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>MerchantID</ControlId><DataBindings><QuickFormPropertyDataBindingDefinition><DataSourceID>MainEntity</DataSourceID><DataItemName>MerchantID</DataItemName><ControlItemName>Text</ControlItemName><FormatString /><NullValueString /></QuickFormPropertyDataBindingDefinition></DataBindings><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><MaxLength>128</MaxLength><OnChangeAction><ResourceKey>MerchantID</ResourceKey><RootActionName>NoActionAction</RootActionName><Action /><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint><DialogActionResult>NoResult</DialogActionResult><PerformsUpdate>False</PerformsUpdate><AppliedSecurity /><RefreshData>False</RefreshData></OnChangeAction></QFTextBox></Property>
+        </Properties>
+      </ControlDefinition>
+    </QuickFormElement>
+    <QuickFormElement>
+      <Properties>
+        <Property name="EntityMappingType" type="System.String">Property</Property>
+        <Property name="EntityTypeName" type="System.String"></Property>
+        <Property name="EntityNamespace" type="System.String"></Property>
+        <Property name="EntityAssemblyName" type="System.String"></Property>
+        <Property name="DefaultNamespace" type="System.String"></Property>
+        <Property name="AssemblyName" type="System.String"></Property>
+        <Property name="EntityReferenceName" type="System.String"></Property>
+        <Property name="DesignerDisplayMember" type="System.String"></Property>
+      </Properties>
+      <ControlDefinition>
+        <Properties>
+          <Property name="Control" type="Sage.Platform.QuickForms.Controls.QFTextBox, Sage.Platform.QuickForms"><QFTextBox xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><RowSpan>5</RowSpan><Column>0</Column><Row>2</Row><IsReadOnly>false</IsReadOnly><HotKey>0</HotKey><TabIndex>0</TabIndex><ControlId>Notes</ControlId><DataBindings><QuickFormPropertyDataBindingDefinition><DataSourceID>MainEntity</DataSourceID><DataItemName>Notes</DataItemName><ControlItemName>Text</ControlItemName><FormatString /><NullValueString /></QuickFormPropertyDataBindingDefinition></DataBindings><ControlLabelPlacement>left</ControlLabelPlacement><CaptionAlignment>left</CaptionAlignment><StyleScheme /><MaxLength>500</MaxLength><Lines>4</Lines><OnChangeAction><ResourceKey>Notes</ResourceKey><RootActionName>NoActionAction</RootActionName><Action /><IsDialogCloseAction>False</IsDialogCloseAction><RunOnEveryRePaint>False</RunOnEveryRePaint><DialogActionResult>NoResult</DialogActionResult><PerformsUpdate>False</PerformsUpdate><AppliedSecurity /><RefreshData>False</RefreshData></OnChangeAction></QFTextBox></Property>
         </Properties>
       </ControlDefinition>
     </QuickFormElement>

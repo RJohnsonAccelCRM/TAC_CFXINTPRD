@@ -118,5 +118,19 @@
         </TextDataType>
       </SystemDataType>
     </property>
+    <property xsi:type="OrmFieldProperty" id="afc0542e-35f0-458d-9772-fcc55745f16e" lastModifiedUtc="2012-10-26T17:14:28.2574786Z" name="MerchantID" audited="false" columnName="MERCHANTID" maxLength="128" precision="0" scale="0" ordinal="8" isReadOnly="false">
+      <ExtendedPropertiesCollection>
+        <extendee type="Sage.Platform.Orm.Entities.OrmFieldProperty">
+          <extender guid="ae60621d-9d91-3d9a-b9fb-eb6c8be12131">
+            <OrmEntityPropertySDataExtension generate="true" />
+          </extender>
+        </extendee>
+      </ExtendedPropertiesCollection>
+      <SystemDataType guid="ccc0f01d-7ba5-408e-8526-a3f942354b3a">
+        <TextDataType>
+          <Length>128</Length>
+        </TextDataType>
+      </SystemDataType>
+    </property>
   </properties>
 </entity>

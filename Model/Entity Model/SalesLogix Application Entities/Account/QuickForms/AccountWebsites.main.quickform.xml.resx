@@ -150,4 +150,10 @@
   <data name="d5900f54-1b9f-445d-b9e5-02fc14567a9b.DialogTitleOverride" xml:space="preserve">
     <value>Insert Account Website</value>
   </data>
+  <data name="grdAccountWebsites.47da4c58-24d6-4de7-9946-7c39d53628d9.ColumnHeading" xml:space="preserve">
+    <value>MerchantID</value>
+  </data>
+  <data name="grdAccountWebsites.5e516f81-99c8-4626-995e-bd741491ce3a.ColumnHeading" xml:space="preserve">
+    <value>MerchantID</value>
+  </data>
 </root>

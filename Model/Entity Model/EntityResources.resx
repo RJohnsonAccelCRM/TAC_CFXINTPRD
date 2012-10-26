@@ -12480,4 +12480,10 @@
   <data name="Account.RoutingNumber.DisplayName" xml:space="preserve">
     <value>RoutingNumber</value>
   </data>
+  <data name="Account.MerchantID.DisplayName" xml:space="preserve">
+    <value>MerchantID</value>
+  </data>
+  <data name="AccountWebsite.MerchantID.DisplayName" xml:space="preserve">
+    <value>MerchantID</value>
+  </data>
 </root>
